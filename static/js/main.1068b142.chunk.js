@@ -1,0 +1,2 @@
+(this["webpackJsonpgenre-website"]=this["webpackJsonpgenre-website"]||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var r=n(1),s=n.n(r),c=n(3),i=n.n(c),a=(n(8),n(0));var d=function(){return Object(a.jsx)("div",{className:"App",children:Object(a.jsx)("header",{className:"App-header",children:Object(a.jsx)("p",{children:"Genre website starts here."})})})};i.a.render(Object(a.jsx)(s.a.StrictMode,{children:Object(a.jsx)(d,{})}),document.getElementById("root"))},8:function(e,t,n){}},[[10,1,2]]]);
+//# sourceMappingURL=main.1068b142.chunk.js.map
