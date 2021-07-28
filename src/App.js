@@ -1,16 +1,10 @@
 import React from 'react';
-// import './App.css';
 import 'antd/dist/antd.css';
-import { Layout, Menu, Carousel } from 'antd';
-const { Header } = Layout;
+import './App.css';
 
-const contentStyle = {
-	height: '500px',
-	color: '#fff',
-	lineHeight: '500px',
-	textAlign: 'center',
-	background: '#364d79',
-};
+import { Layout, Menu, Carousel } from 'antd';
+import { RightOutlined, LeftOutlined } from '@ant-design/icons';
+const { Header } = Layout;
 
 function App() {
 	return (
@@ -25,18 +19,46 @@ function App() {
 					</Menu>
 				</Header>
 			</Layout>
-			<Carousel effect='fade'>
-				<div>
-					<h3 style={contentStyle}>1</h3>
+			<Carousel
+				arrows
+				nextArrow={<RightOutlined />}
+				prevArrow={<LeftOutlined />}
+			>
+				<div className='carousel-div'>
+					<h2>heading 1</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+						alias similique, quas nostrum soluta sed quaerat aut excepturi,
+						assumenda explicabo mollitia distinctio, voluptatibus praesentium.
+						Non, nam at! Odit, assumenda quis?
+					</p>
 				</div>
-				<div>
-					<h3 style={contentStyle}>2</h3>
+				<div className='carousel-div'>
+					<h2>heading 2</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+						alias similique, quas nostrum soluta sed quaerat aut excepturi,
+						assumenda explicabo mollitia distinctio, voluptatibus praesentium.
+						Non, nam at! Odit, assumenda quis?
+					</p>
 				</div>
-				<div>
-					<h3 style={contentStyle}>3</h3>
+				<div className='carousel-div'>
+					<h2>heading 3</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+						alias similique, quas nostrum soluta sed quaerat aut excepturi,
+						assumenda explicabo mollitia distinctio, voluptatibus praesentium.
+						Non, nam at! Odit, assumenda quis?
+					</p>
 				</div>
-				<div>
-					<h3 style={contentStyle}>4</h3>
+				<div className='carousel-div'>
+					<h2>heading 4</h2>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+						alias similique, quas nostrum soluta sed quaerat aut excepturi,
+						assumenda explicabo mollitia distinctio, voluptatibus praesentium.
+						Non, nam at! Odit, assumenda quis?
+					</p>
 				</div>
 			</Carousel>
 		</>
