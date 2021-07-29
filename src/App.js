@@ -2,7 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './App.css';
 
-import { Layout, Menu, Carousel } from 'antd';
+import { Layout, Menu, Carousel, Divider } from 'antd';
 import { RightOutlined, LeftOutlined } from '@ant-design/icons';
 const { Header } = Layout;
 
@@ -26,6 +26,21 @@ function App() {
 			>
 				<div className='carousel-div'>
 					<h2>heading 1</h2>
+					<Divider>Tags on some websites</Divider>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+						alias similique, quas nostrum soluta sed quaerat aut excepturi,
+						assumenda explicabo mollitia distinctio, voluptatibus praesentium.
+						Non, nam at! Odit, assumenda quis?
+					</p>
+					<Divider>The shortcoming of these approaches</Divider>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+						alias similique, quas nostrum soluta sed quaerat aut excepturi,
+						assumenda explicabo mollitia distinctio, voluptatibus praesentium.
+						Non, nam at! Odit, assumenda quis?
+					</p>
+					<Divider>In new method</Divider>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
 						alias similique, quas nostrum soluta sed quaerat aut excepturi,
