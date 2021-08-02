@@ -7,6 +7,9 @@ function App() {
 			<div id='top-div'>
 				<h4>Find Sub-Genre of any movie/book/TV series</h4>
 			</div>
+			<div id="bottom-div">
+				
+			</div>
 		</div>
 	);
 }
