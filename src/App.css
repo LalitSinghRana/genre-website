@@ -10,122 +10,41 @@ body {
 }
 
 #top-div {
-	height: 10vh;
 	background-color: indianred;
-	margin: auto;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	flex-direction: column;
 }
 
-#top-div-1 h4 {
-	margin: 0px;
-	padding: 0px;
-	font-size: 1rem;
+#top-div h4 {
+	margin: 10px 0px;
+	font-size: 1em;
 	text-align: center;
-}
-
-@media only screen and (min-width: 600px) {
-	#top-div {
-		height: 50vh;
-	}
-	#top-div h4 {
-		font-size: 2rem;
-	}
-}
-
-#top-div-1 {
-	margin: auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 #nt-example2 {
-	max-height: 2rem;
-	/* margin: auto; */
-	display: inline-flexbox;
-}
-
-#nt-example2-container {
-	text-align: center;
-	margin-top: 107px;
-	margin-bottom: 40px;
-	height: 300px;
-}
-
-#nt-example2-container i {
-	font-size: 24px;
-	margin: 8px;
-	cursor: pointer;
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition: all 0.1s ease-in-out;
-	-ms-transition: all 0.1s ease-in-out;
-	-o-transition: all 0.1s ease-in-out;
-	transition: all 0.1s ease-in-out;
-}
-
-#nt-example2-container i:hover {
-	color: #333;
+	max-height: 1.5em;
+	padding: 0px;
+	margin: 0 30% 10px 30%;
+	/* background: #319795; */
+	border-bottom: 1px solid white;
+	color: #f2f2f2;
 }
 
 #nt-example2 li {
-	color: #f2f2f2;
-	background: #319795;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 2rem;
-	/* padding: 10px 16px 10px 16px; */
-	/* line-height: 40px; */
+	padding: 0.25em 0px;
 	list-style: none;
-	/* font-size: 24px; */
-	text-align: center;
 }
 
-#nt-example2 li div {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+#nt-example2 h4 {
+	margin: 0px;
 }
 
-#nt-example2 li div .state {
-	font-size: inherit;
-	margin: 0;
-}
-
-#nt-example2 span.hour {
-	font-weight: 700;
-}
-
-#nt-example2-infos-triangle {
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 0 15px 16px 15px;
-	border-color: transparent transparent #319795 transparent;
-	margin: 6px auto 0;
-}
-
-#nt-example2-infos {
-	max-width: 620px;
-	margin: auto;
-	padding: 12px;
-	color: #f2f2f2;
-	background: #319795;
-}
-
-#nt-example2-infos .infos-hour {
-	font-size: 32px;
-	font-weight: 700;
-	margin-top: 20px;
-}
-
-#nt-example2-infos h4 {
-	color: #f2f2f2;
-	font-weight: 500;
-}
-
-#nt-example2-infos .infos-text {
-	text-align: left;
+@media only screen and (min-width: 600px) {
+	#top-div h4 {
+		font-size: 2rem;
+	}
+	#nt-example2 {
+		max-height: 3em;
+		margin: 0 40% 10px 40%;
+	}
 }
