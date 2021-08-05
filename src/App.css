@@ -1,7 +1,6 @@
-body {
-	width: 100%;
-	height: 100%;
+* {
 	margin: 0px;
+	padding: 0px;
 }
 
 #outer-div {
@@ -13,18 +12,18 @@ body {
 	background-color: indianred;
 	display: flex;
 	flex-direction: column;
+	font-size: 1.5em;
+	padding: 1em;
 }
 
 #top-div h4 {
-	margin: 10px 0px;
-	font-size: 1em;
 	text-align: center;
 }
 
 #nt-example2 {
 	max-height: 1.5em;
 	padding: 0px;
-	margin: 0 30% 10px 30%;
+	margin: 0.5em 20%;
 	/* background: #319795; */
 	border-bottom: 1px solid white;
 	color: #f2f2f2;
@@ -35,8 +34,16 @@ body {
 	list-style: none;
 }
 
-#nt-example2 h4 {
+/* #nt-example2 h4 {
 	margin: 0px;
+} */
+
+#top-div > button {
+	margin: 1em 15% 0 ;
+	height: 2em;
+	/* width: wrap; */
+	/* padding: auto; */
+	font-size: 1.25em;
 }
 
 @media only screen and (min-width: 600px) {

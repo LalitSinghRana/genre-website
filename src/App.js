@@ -7,11 +7,11 @@ function App() {
 	return (
 		<div id='outer-div'>
 			<div id='top-div'>
-				<h4>Find genre, sub-genre and tags of any</h4>
+				<h4>Find and vote on genre, sub-genre and tags of any</h4>
 				<NewsTicker
 					rowHeight={100}
 					maxRows={1}
-					speed={500}
+					speed={300}
 					duration={3000}
 					autoStart={true}
 					pauseOnHover={true}
@@ -21,6 +21,7 @@ function App() {
 						<h4 key={i}>{item}</h4>
 					))}
 				</NewsTicker>
+				<button>Get Started</button>
 			</div>
 			<div id='bottom-div'></div>
 		</div>
