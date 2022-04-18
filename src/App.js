@@ -7,7 +7,7 @@ function App() {
 	return (
 		<div id='outer-div'>
 			<div id='top-div'>
-				<h4>Find and vote on genre, sub-genre and tags of any</h4>
+				<p>Vote on genre, sub-genre and tags of any</p>
 				<NewsTicker
 					rowHeight={100}
 					maxRows={1}
@@ -18,12 +18,32 @@ function App() {
 					id='nt-example2'
 				>
 					{arr.map((item, i) => (
-						<h4 key={i}>{item}</h4>
+						<p key={i}>{item}</p>
 					))}
 				</NewsTicker>
 				<button>Get Started</button>
 			</div>
-			<div id='bottom-div'></div>
+			<div id='bottom-div'>
+				<div className='que-div'>
+					<h6>The public voting</h6>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+						quidem quis eligendi fuga ab expedita nostrum ullam pariatur
+						placeat? Quasi soluta voluptatibus amet voluptas ipsa blanditiis
+						fugit perferendis rerum laudantium.
+					</p>
+				</div>
+				<div className='que-div'>
+					<h6>The public voting</h6>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
+						quidem quis eligendi fuga ab expedita nostrum ullam pariatur
+						placeat? Quasi soluta voluptatibus amet voluptas ipsa blanditiis
+						fugit perferendis rerum laudantium.
+					</p>
+				</div>
+				<div className='que-div'></div>
+			</div>
 		</div>
 	);
 }

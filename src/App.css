@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 #outer-div {
@@ -16,7 +17,7 @@
 	padding: 1em;
 }
 
-#top-div h4 {
+#top-div p {
 	text-align: center;
 }
 
@@ -34,24 +35,18 @@
 	list-style: none;
 }
 
-/* #nt-example2 h4 {
-	margin: 0px;
-} */
-
 #top-div > button {
-	margin: 1em 15% 0 ;
+	margin: 1em 15% 0;
 	height: 2em;
-	/* width: wrap; */
-	/* padding: auto; */
 	font-size: 1.25em;
 }
 
 @media only screen and (min-width: 600px) {
-	#top-div h4 {
+	#top-div p {
 		font-size: 2rem;
 	}
-	#nt-example2 {
-		max-height: 3em;
-		margin: 0 40% 10px 40%;
+
+	#top-div > button {
+		margin: 1em 30% 0;
 	}
 }
